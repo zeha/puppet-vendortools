@@ -15,6 +15,7 @@ rescue LoadError
 end
 
 PuppetLint.configuration.send("disable_80chars")
+PuppetLint.configuration.send("disable_variable_scope")
 PuppetLint.configuration.log_format = "%{path}:%{linenumber}:%{check}:%{KIND}:%{message}"
 PuppetLint.configuration.fail_on_warnings = true
 
