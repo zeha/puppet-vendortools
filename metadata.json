@@ -1,0 +1,50 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.2.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "description": "Contains several vendor-specific subclasses, installs the correct class for the system.",
+  "project_page": "https://github.com/Voalte/puppet-vendortools.git",
+  "checksums": {
+    "manifests/hp.pp": "ab00a73258ada6bcd1ae1f3355bfd9ef",
+    "manifests/ibm.pp": "00db707dae22f645b186bb38d9aa3328",
+    "README.md": "26b66b7ec85817f559dc51c2b9a3b393",
+    "Gemfile": "a4a01ebb484c6f95bd2835d9a18f7cc8",
+    "manifests/vmware.pp": "87deafcc179c5bb879398517038ab58b",
+    "manifests/apple.pp": "8c114a74c89c03dbed5ebc6d7755be65",
+    "Modulefile": "1881579cfceb51b6e17fb078e29239b0",
+    "manifests/dell.pp": "6691a0e27f43d02c3d6072292e5c7782",
+    "LICENSE": "136e4f49dbf29942c572a3a8f6e88a77",
+    "Rakefile": "1be6dcb93afa15179c121c5f9c2b50c0",
+    "manifests/init.pp": "eec20716b7ba69fd8a95e3b8b38793ec"
+  },
+  "author": "John Simpson, Jeff Palmer",
+  "license": "Apache Version 2.0",
+  "summary": "Vendor-specific packages, tools,  and services",
+  "version": "0.0.1",
+  "source": "https://github.com/Voalte/puppet-vendortools.git",
+  "dependencies": [
+    {
+      "name": "stahnma/epel"
+    }
+  ],
+  "types": [
+
+  ],
+  "name": "voalte-vendortools"
+}

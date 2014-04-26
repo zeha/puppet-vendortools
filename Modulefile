@@ -1,9 +1,10 @@
 # Copyright (c) 2013-2014 Voalte Inc. All rights reserved.
-name            'vendortools'
+name            'jpalmer-vendortools'
 version         '0.0.1'
-summary         'Hardware-specific packages and services'
-description     'Contains several hardware-specific sub-modules, installs the correct module for the system.'
+source          'https://github.com/Voalte/puppet-vendortools.git'
+project_page    'https://github.com/Voalte/puppet-vendortools.git'
+summary         'Vendor-specific packages, tools,  and services'
+description     'Contains several vendor-specific subclasses, installs the correct class for the system.'
 author          'John Simpson, Jeff Palmer'
-license		'Apache Version 2.0'
+license         'Apache Version 2.0'
 dependency	'stahnma/epel'
-
