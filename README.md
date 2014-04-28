@@ -1,4 +1,5 @@
-#Copyright (c) 2013-2014 Voalte Inc. All rights reserved.
+Build status:  [![Build Status](https://travis-ci.org/Voalte/puppet-vendortools.svg?branch=master)](https://travis-ci.org/Voalte/puppet-vendortools)
+
 # vendortools puppet module 
 
 v0.0.1 - John Simpson, Jeff Palmer 2013-10-04
@@ -37,3 +38,5 @@ do anything.
 
 VMWare guests are recognized, but the hardware::vmware module currently does
 not do anything.
+
+// Copyright (c) 2013-2014 Voalte Inc. All rights reserved
